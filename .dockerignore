@@ -1,0 +1,8 @@
+.git
+**/__pycache__
+**/.DS_Store
+**/node_modules
+**/motionbert-env
+**/pretrained_models/*.pth
+**/checkpoint/**/*.bin
+runtime

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cycling-biomechanics-analyzer"
+version = "0.1.0"
+description = "Markerless cycling biomechanics analysis of MotionBERT 3D pose"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10"]
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "pydantic>=2", "uvicorn>=0.29", "python-multipart>=0.0.9"]
+test = ["pytest>=8", "httpx>=0.27"]
+[project.scripts]
+cycling-analyzer = "cycling_analysis.cli:main"
+[tool.setuptools.packages.find]
+include = ["cycling_analysis*", "pipeline*", "backend*"]

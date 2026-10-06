@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "source": "sample/height1_X3D.npy",
+    "frames": 882,
+    "fps": 59.94,
+    "duration_seconds": 14.698031364698032,
+    "pose_format": "MotionBERT H36M-17",
+    "vertical_axis": "Y",
+    "coordinate_units": "model output units (unvalidated physical scale)",
+    "filter": {
+      "method": "zero-phase Butterworth",
+      "cutoff_hz": 6.0,
+      "order": 2
+    }
+  },
+  "cycles": {
+    "count": 13,
+    "boundary_frames": [
+      37,
+      99,
+      162,
+      215,
+      276,
+      345,
+      408,
+      482,
+      531,
+      592,
+      656,
+      722,
+      787,
+      850
+    ],
+    "mean_duration_seconds": 1.0433510433510433,
+    "right_knee_y_consistency_model_units": 0.05141296325380039
+  },
+  "symmetry": {
+    "mean_signed_nsi_percent": 11.139687926520022,
+    "mean_absolute_nsi_percent": 55.611667414796116,
+    "cross_correlation": 0.9560098959033805,
+    "phase_lag_frames": 32,
+    "phase_lag_seconds": 0.5338672005338673,
+    "per_cycle_cross_correlation": [
+      {
+        "coefficient": 0.6114657033371692,
+        "lag_frames": -43
+      },
+      {
+        "coefficient": 0.6217909140442314,
+        "lag_frames": -42
+      },
+      {
+        "coefficient": 0.6050383316358361,
+        "lag_frames": -47
+      },
+      {
+        "coefficient": 0.6024151343002823,
+        "lag_frames": -46
+      },
+      {
+        "coefficient": 0.6259563190850139,
+        "lag_frames": -41
+      },
+      {
+        "coefficient": 0.6247049509071205,
+        "lag_frames": -43
+      },
+      {
+        "coefficient": 0.630821277672618,
+        "lag_frames": -39
+      },
+      {
+        "coefficient": 0.5522557857210579,
+        "lag_frames": 48
+      },
+      {
+        "coefficient": 0.6029550442664319,
+        "lag_frames": -43
+      },
+      {
+        "coefficient": 0.6317612851381981,
+        "lag_frames": -42
+      },
+      {
+        "coefficient": 0.616982829104104,
+        "lag_frames": -42
+      },
+      {
+        "coefficient": 0.6081858931847905,
+        "lag_frames": -42
+      },
+      {
+        "coefficient": 0.6215741910289883,
+        "lag_frames": -43
+      }
+    ]
+  },
+  "kinematics": {
+    "left_knee_flexion_degrees": {
+      "min": 74.38229430833705,
+      "max": 136.31021666359024,
+      "mean": 104.95799755663765
+    },
+    "right_knee_flexion_degrees": {
+      "min": 64.75260430328409,
+      "max": 124.34792970751155,
+      "mean": 92.49905575611078
+    },
+    "left_knee_angular_velocity_rms_deg_per_sec": 124.29515962461068,
+    "right_knee_angular_velocity_rms_deg_per_sec": 129.69387175306036
+  },
+  "stability": {
+    "pelvis_vertical_rms_jerk_model_units_per_sec3": 42.672536243312194,
+    "pelvis_vertical_cycle_consistency_model_units": 0.0062135020180767685
+  },
+  "charts": [
+    "knee_trajectory.svg",
+    "knee_flexion.svg",
+    "symmetry.svg",
+    "pelvis_jerk.svg"
+  ]
+}
